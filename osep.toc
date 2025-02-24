@@ -1,0 +1,17 @@
+\contentsline {chapter}{\numberline {1}Conceptos basicos}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Procesos Quimicos Industriales}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Representación de procesos}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Tecnicas basicas de operación (1.2)}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Recuperación de compuestos}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Fracción de separación y razones de separación}{4}{subsection.1.1.4}%
+\contentsline {subsubsection}{Fracción de separación}{5}{section*.2}%
+\contentsline {subsubsection}{Porcentaje de recuperación}{6}{section*.3}%
+\contentsline {subsubsection}{Razón de separación}{6}{section*.4}%
+\contentsline {subsection}{\numberline {1.1.5}Pureza}{6}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Factor de separación}{7}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7} Denominaciones de composicion y pureza}{7}{subsection.1.1.7}%
+\contentsline {subsection}{\numberline {1.1.8}Secuencias de separación}{8}{subsection.1.1.8}%
+\contentsline {subsection}{\numberline {1.1.9}Selección de Separaciones posibles}{8}{subsection.1.1.9}%
+\contentsline {subsection}{\numberline {1.1.10}Questionario}{9}{subsection.1.1.10}%
+\contentsline {chapter}{\numberline {2}Transferencia de masa}{12}{chapter.2}%
+\contentsfinish 

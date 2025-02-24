@@ -1,0 +1,357 @@
+\documentclass{report}
+
+\input{preamble} % revisar en preamble \setcounter{tocdepth}{3}
+\input{macros}
+\input{letterfonts}
+\usepackage{graphicx}
+\usepackage{chemfig}
+\usepackage{multicol}
+\usepackage{fix-cm}
+\title{\Huge{Operaciones de separación}\\Teoria y problemas}
+\author{\huge{Christian Perez hita}}
+\date{}
+
+\begin{document}
+\setcounter{tocdepth}{3}
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{contenidos}
+
+\tableofcontents
+\pagebreak
+
+\chapter{Conceptos basicos}
+\section{Procesos Quimicos Industriales}
+\begin{raggedright}
+	son las industrias quimicas y bioquimicas destinadas a fabricar productos,que pueden ser mmateriales naturales vivos o no, 
+	estos pueden ser intermedios,comerciales o de deshechos (Aunque es necesario revisar si puede tener un valor añadido para su reutilización.)\\
+\vspace{1\baselineskip}
+Independientemente del tipo de producto que se obtenga, desde el punto de vista de las operaciones de separacion, hemos de fijarnos en las composiciones
+del producto, puesto a que si se lleva una operacion de separacion, la composicion de los productos deben diferir de la alimentación.\\
+
+\textbf{existen 3 formas de operar en la industria quimica en cuanto al regimen de operacion:}
+\begin{itemize}
+	\item Operacion en continuo: se alimenta continuamente y se obtiene un producto continuamente no hay acumulación de producto.
+	\item Operacion en discontinuo: se trabaja en lotes/batch tambien conocido como operacion por carga, ya que se carga y tras un tiempo se descarga.
+	\item Operacion en semicontinuo: se trata de una combinación de las dos anteriores, normalmente el proceso continuo es la alimentación.
+\end{itemize}
+\textbf{Podemos clasificar las operaciones de 2 formas:}
+\begin{itemize}
+	\item  \textbf{\large Operaciones auxiliares:} son aquellas que no modifican la composición del producto, pero si sus propiedades fisicas.
+	\item [] Separaciones de fases
+	\item [] Transferencia de calor
+	\item [] Compresión de gases o bombeo de liquidos
+	\item [] Mezclado o división de corrientes
+	\item [] aglomeraciones de solidos
+	\item [] Reduccion de tamaño de solidos
+	\item [] Separacion de solidos por tamizado
+	\item  \textbf{\large Operaciones claves:} son aquellas que modifican la composición del producto es decir donde unicamente opera un ingeniero quimico.
+	\item [] Reactores quimicos
+	\item [] Separaciones de mezclas
+\end{itemize}
+\end{raggedright}
+\subsection{Representación de procesos}
+\begin{raggedright}
+	Para representar un proceso en funcion del grado de detalle nos encontraremos con 3 tipos de diagramas:
+	\begin{itemize}
+		\item Diagrama de bloques: BFD (Block Flow Diagram) Diagrama simplifcado donde se representan las corrientes y la operacion dentro de un bloque
+		\item Diagrama de flujo de proceso PFD (Process Flow Diagram) Diagrama mas detallado que el anterior, donde se representan las simbologia y proxesos auxiliares ademas de las corrientes.
+		\item Diagrama de tuberias e instrumentacion P\&ID (Piping and Instrumentation Diagram) Diagrama mas detallado que el anterior, donde ademas se representan los instrumentos de control y las tuberias.
+	\end{itemize}
+\end{raggedright}
+	
+
+\subsection{Tecnicas basicas de operación (1.2)}
+Dependiendo del criterio en que se base la clasificacion podemos obtener un mayor o un menor numero de operaciones de separacion, Pero principalmente existen 5 tecnicas basicas de operacion:\\
+\clm{}{}{\begin{itemize}
+	\item \textbf{Separación por adición de fase:} esta consiste en crear una nueva fase inmiscible con la anterior, por ejemplo la destilación. donde basicamente se usa un AES o un intercambio de trabajo mecanico.
+	\item \textbf{Separacion por creacion de fase:} Consiste en adicionar una segunda fase es decir un AMS un ejemplo podria ser una extracción liquido-liquido, absorción...
+	\item \textbf{Separacion por barrera:} se trata de una operacion menos comun que la anterior, por una membrana polimerica, por permeabilidad retienen unas especies, se trata de filtracion tangencial.
+	\item \textbf{Separacion por agente solido:} se trata de una operacion en la que se usa un agente solido para separar las fases, un ejemplo seria la adsorción, cromatografia... donde la alimentacion se adhiere al solido.
+	\item \textbf{Separacion por campo de fuerza o gradiente: } una centrifugacion para separar isotopos, o una separacion magnetica.
+\end{itemize}}
+
+\vspace{1\baselineskip}
+\begin{raggedright}
+	Hay que tener en cuenta que en el mezclado se da de forma natural y espontanea, va asociado a un incremento de entropia, y no requiere ningun aporte de energía. por ello cuando queremos uno de los productos de la mezcla es necesario una operacion de separación que no es espontaneo por tanto requiere de un gasto energetico, las mezclas pueden ser monofasicas o multifasicas.\\
+	\vspace{1\baselineskip}
+	\mlenma{}{Las tecnicas de separación buscan la transferencia de materia hacia diferentes localizaciones espaciales soportdables o fases}
+	\qs{}{Indicar las distintas tecnicas de separación en la industria quimica}
+	\qs{cuales son las tecnicas basicas de separación y que tienen todas ellas en común}{
+	\sol{Todas tienen en comun que requieren energía y que transofrman una unica corriente de entrada (alimentación o mezcla) en varias corrientes de salida (fases o productos que difieren en composición)por la ccion del proceso de separación.}}
+	\begin{center}
+		\textbf{En el analisis es importante tener una serie de aspectos en cuenta:}\\
+		\vspace{1\baselineskip}
+	\end{center}
+	\begin{itemize}
+		\item \textbf{Tamaño de los equipos: } estos tendran un tamaño especificoen funcion  de la cinetica del proceso o los fenomenos de transferencia de masa por difusión, a mayor velocidad los equipos seran mas pequeños para ello se estudia la transferencia de masa\\
+		\textbf{Estan determinadas por la velocidad de transferencia de materia relativa a sus componentes}.
+		\item \textbf{transferencia de masa: } se rige principalmente por la termodinamica del equilibrio.
+		\item \textbf{Extensión de separación: } es decir depende de cuan diferente sean sus propiedades moleculares o termodinamicas y del transporte de estos a la hora de separarlos.
+		\item \textbf{Fuerza impulsora y dirección de esta}
+	\end{itemize}
+
+\end{raggedright}
+\vspace{2\baselineskip}
+\nt{El AMS tiene como desventaja que es necesaria la recuperacion del disolvente, puede existir perdidas del disolvente y que sea contaminamente, ademas de que el diseño del proceso se vuelve mas complejo}
+\vspace{1\baselineskip}
+\qs{\resizebox{0.8\linewidth}{!}{¿Por qué es la transferencia de masa un factor importante en los procesos de separación?}}{La velocidad de transferencia de masa es un factor importante en los procesos de separación, ya que determina el tamaño de los equipos necesarios para llevar a cabo la separación. A mayor velocidad de transferencia de masa, los equipos serán más pequeños.}
+
+\subsection{Recuperación de compuestos}
+\begin{raggedright}
+	Proceso de separación, generalizacion con alimentacion F de una mezcla de c compuestos (i=1,..c) siendo posible separar en N productos, para simplificar consideramos que el proceso es continuo, estado estacionario
+	sin reaccion quimica, teniendo solo en cuenta a la hora de hacer los balances $\sum F_e = \sum F_s$ si planteamos las corrientes con cuadales individuales no se puede hacer el Balance de materia total, es decir se plantean para cada compuesto  C Balances de materias independientes.
+	\begin{equation*}
+		n^F_i = \text{donde } F \text{ es la corriente a la que pertenece, } n \text{ es el caudal individual y } i \text{ es el compuesto.}
+	\end{equation*}
+	
+	\begin{equation*}
+		n^N_i = \text{donde } N \text{ corresponde a la corriente del producto.}
+	\end{equation*}
+	
+\textbf{Caudales molares (masicos):}\\
+Para cada compuesto hay N+1 variables, como se conocera $n_i^F$ habra N variables, como se ha formulado el balance de materia respecto a los componentes, el numero total de incognitas sera N*C. para dar solucion al sistema queda un total de C*(N-1)
+por lo que es necesario el mismo numero de ecuaciones adicionales, las cuales estan relacionadas con los productos. Estas son las especficaciones de diseño.
+
+\end{raggedright}
+
+\subsection{Fracción de separación y razones de separación}
+
+\begin{raggedright}
+	\ex{Proceso de recuperación de hidrocarburos}{
+		Los componentes de acuerdo con la fracción de separación o la razón de separación dependen de sus propiedades termodinámicas y del transporte de los componentes, así como del número de etapas y los caudales de la propia columna.  
+		
+		En el siguiente proceso se obtienen 4 productos:  
+		
+		Una vez planteados los balances de materia, teniendo en cuenta todas las especificaciones de diseño, se obtiene la composición y caudal de cada corriente, dando lugar a la siguiente tabla:  
+		
+	
+		\includegraphics[width=0.8\textwidth]{FR.png}
+		
+		
+		% División en dos columnas
+		\begin{multicols}{2}
+			\begin{itemize}
+				\item Porcentaje de recuperación
+				\setcounter{enumi}{1}
+				\item [] \protect\scalebox{1.2}{\textcircled{2}} $C_5 \rightarrow \frac{233.3}{278.9} = 83.65\%$ %2
+				\item [] \protect\scalebox{1.2}{\textcircled{4}} $C_3 \rightarrow \frac{54.8}{57} = 96.14\%$	%4
+				\item [] \protect\scalebox{1.2}{\textcircled{6}} $i-C_4 \rightarrow \frac{162.5}{171.8} = 94.59\%$ %6
+				\item [] \protect\scalebox{1.2}{\textcircled{7}} $n-C_5 \rightarrow \frac{215.8}{227.3} = 94.94\%$ %8
+				\item Pureza molar del producto
+				\item []$\frac{233.3}{234.1} = 99.66\% mol$
+				\item []$\frac{54.8}{56} = 97.86\% mol$
+				\item []$\frac{162.5}{175.5} = 92.59\% mol$
+				\item []$\frac{215.8}{270} = 79.93\% mol$
+			\end{itemize}
+		\end{multicols}
+	} % Cierre correcto de \ex{}
+\end{raggedright}
+\subsubsection{Fracción de separación}
+\begin{raggedright}
+	La fracción de separación es la relacion entre dos caudales individuales relativos al mismo compuesto para el mismo dispositivo teniendo en cuenta la corriente de salida rica en la especie mas volatil y la corriente de alimentacion.
+	cuanta menor sea su volatilidad menor sera la fraccion de separacion, es decir si la fraccion de separacion es 0, los componentes estan en equilibrio. Es decir:\\
+	
+	\begin{equation*}
+		SF =\frac{\text{Caudal molar del componente en el producto}}{\text{Caudal molar del componente en la alimentación de ese equipo}}
+	\end{equation*}
+	otra forma de definirlo seria:La fracción de separación es un parámetro que mide la eficiencia con la que un proceso de separación extrae un componente específico de una corriente de alimentación y lo dirige hacia una corriente de producto.
+\end{raggedright}
+\subsubsection{Porcentaje de recuperación}
+\begin{raggedright}
+    El porcentaje de recuperación es la relación entre el caudal molar del componente en la corriente de producto y el caudal molar del componente en la corriente de alimentación del proceso inicial. Se expresa como:
+    \begin{equation*}
+        \%PR = \frac{\text{Caudal molar del componente en el producto}}{\text{Caudal molar del componente en la alimentación de partida}} \times 100
+    \end{equation*}
+    Este parámetro mide la eficiencia con la que un proceso de separación extrae un componente específico de la corriente de alimentación y lo dirige hacia la corriente de producto.
+
+    \nt{Si se refiere al mismo equipo, el porcentaje de recuperación será igual a la fracción de recuperación.}
+\end{raggedright}
+
+
+\subsubsection{Razón de separación}
+\begin{raggedright}
+	La razón de separación es la relación entre dos caudales individuales relativos al mismo compuesto ,
+	\begin{equation*}
+		SR = \frac{\text{Caudal molar del componente en el producto 1}}{\text{Caudal molar del componente en el producto 2}}
+	\end{equation*}
+	La razón de separación es un parámetro que mide la eficiencia con la que dos procesos de separación extraen un componente específico de una corriente de alimentación y lo dirigen hacia una corriente de producto.
+	
+	en el caso en que solo haya 2 productos se puede definir como :
+	\begin{equation*}
+		SR = \frac{SF}{1-SF}
+	\end{equation*}
+	es decir como se distribuye un compuesto entre dos corrientes de salida.
+\end{raggedright}
+\subsection{Pureza}
+\begin{raggedright}
+    Se trata de la cantidad de un componente en una corriente de salida de un separador respecto a la cantidad total de los componentes en esa misma corriente de salida.
+
+    \begin{itemize}
+        \item[] \textbf{Clave ligera (LK):} Componente designado como el más volátil. Todos los que tengan mayor volatilidad también se consideran clave ligera.
+        \item[] \textbf{Clave pesada (HK):} Componente designado como el menos volátil. Todos los que tengan menor volatilidad también se consideran clave pesada.
+    \end{itemize}
+\end{raggedright}
+	\ex{Designar el LK y HK en una corriente de 6 componentes para hidrocarburos}{
+    \begin{itemize}
+        \item Metano
+        \item Etano 
+        \item Propano $\leftarrow$ LK
+        \item Butano $\leftarrow$ HK 
+        \item Pentano
+        \item Hexano 
+    \end{itemize}
+    Es decir, los componentes clave ligera serían el metano, etano y propano, mientras que los clave pesada serían el butano, pentano y hexano.
+    }
+
+
+\nt{\textbf{Separación nítida:}Es aquella que cumple que es superior al 0.95* el compuesto clave ligero (LK), o el 0.05 del producto pesado HK}
+\subsection{Factor de separación}
+\begin{raggedright}
+	El factor de separacion entre dos compuestos, es la relacion entre la fraccion de separacion del componente ligero respecto al pesado, es decir:
+	\begin{equation*}
+		SP_{lk,hk} = \frac{SR_{LK}}{SR_{HK}}
+	\end{equation*}
+	Tambien se puede definir respecto a la fraccion de separacion de los componentes, es decir:
+	\begin{equation*}
+		SP_{lk,hk} = \frac{SF_{LK}/SF_{HK}}{(1-SF_{HK})/(1-SF_{LK})}
+	\end{equation*}
+	y de otra manera definiendo con concentraciones:
+	\begin{equation*}
+		SP_{lk,hk} = \frac{C_{LK}^1/C_{HK}^2}{C_{LK}^1/C_{HK}^2}\hspace{0.2cm} \leftrightarrow \hspace{0.2cm} SP_{lk,hk} = \frac{\large y_{\scriptscriptstyle LK}/x_{\scriptscriptstyle LK}} {\large y_{\scriptscriptstyle HK}/x_{\scriptscriptstyle HK}}
+	\end{equation*}
+cuanto mayor sea el factor de separacion mas viable sera la operación siendo como maximo 1 cuando se pueda separar por completo. Esto depende de los siguientes parametros:
+\end{raggedright}
+\begin{itemize}
+	\item Cantidades relativas de ambas fases
+	\item Propiedades termodinamica de los componentes y de sus propiedades de transporte y moleculares
+	\item Diseño del equipo
+	\item Numero de etapas y configuracion del equipo
+\end{itemize}
+\mlenma{Factor de separación en columna de rectificación}
+{En una columna simple de rectificación, los productos ligeros irán por el destilado, es decir, la cabeza, mientras que los pesados irán por la cola, es decir, por el residuo.  
+
+También es posible tener extracciones laterales, conocidas como corriente de sangrado, si se quieren extraer fracciones intermedias o bien una alimentación múltiple si hay varias corrientes de entrada.  
+
+En una columna simple podemos distinguir dos zonas para una configuración óptima, divididas por la corriente de alimentación:  
+\begin{itemize}
+	\item \textbf{Sección de enriquecimiento} (superior o "top"), donde sale el destilado, marcada por la \textbf{LOSE} (Línea de Operación de la Sección de Enriquecimiento). 
+	\item \textbf{Sección de agotamiento} (inferior), donde sale el residuo, marcada por la \textbf{LOSA} (Línea de Operación de la Sección de Agotamiento).
+\end{itemize}
+}
+
+\subsection{ Denominaciones de composicion y pureza}
+\begin{raggedright}
+	En función del estado de agregacion se tiende a expresar de una manera las composiciones y pureza o de otra.
+	\begin{itemize}
+		\item $\textbf{Mezclas gaseosas:}$ $\%$ mol que es equivalente a $\%$vol o bien fracciones molares $y_i =\frac{mol_i}{m_t}$
+		\item $\textbf{liquidas:}$ $\%$ peso $(\%wt)$ o bien fracciones másicas $x_i = \frac{kg_i}{kg_t}$
+		\item $\textbf{Normativa/regulaciones ambientales:}$ ppm (g/L) o ppb (mg/L)
+		\item $\textbf{Disoluciones acuosas:}$ molaridad
+		\item $\textbf{Mezclas acuosas:}$ Concentraciones en g/L o g/mol
+	\end{itemize}
+\end{raggedright}
+\subsection{Secuencias de separación}
+\begin{raggedright}
+	De todas las secuencias posibles para seleccionar la optima depende del numero de productos.\\
+	En un posible caso donde existan 3 separadores y 4 productos de salida el numero de secuencias posibles es 5.\\
+	para ello es importante usar la \textbf{Tecnica Heuristica} que consiste en seleccionar la secuencia que maximice el factor de separacion, es decir que separe los componentes de forma mas eficiente.
+	\begin{enumerate}
+		\item Al inicio de la secuencia se reitran los compuestos químicos inestables,corrosivos o quimicamente reactivos es decir aquellos que puedan suponer peligro.
+		\item Los productos finales se retiran uno a uno como productos destilados de cabeza 
+		\item Al principio de la secuencia se retiran los componentes de mayor porcentaje molar en la alimentación
+		\item Debe hacerse la separacion mas dificil en ausencia de otros componentes.
+		\item Se deja para mas adelante en la secuencia las  separaciones que producen los productos finales de mas alta pureza
+		\item se  selecciona la secuencia que favore cantidades aproximadamente equimolares de cabeza y cola en cada columna.
+	\end{enumerate}
+	\ex{5 corrientes de productos en 3 separadores, hidrocarburos}{\includegraphics[width=0.7\textwidth]{Secuencias.PNG}
+	\vspace{1\baselineskip}
+	\begin{enumerate}
+		\item como no hay ningun compuesto inestable, se pasa al siguiente paso
+		\item la secuencia 1 es la que da un mayor numero de productos por cabeza
+		\item en la 3 y 4 se elima los de mayor porcentaje es decir la mezcla binaria
+		\item las especies que tengan volatilidades cercanas, es decir puntos de ebullicion cercano, y por tanto isomeros seran complicados de separar
+		\item se desconoce la pureza de los productos, por lo que no se puede aplicar
+		\item tanto la 3 como la 4 serian optimas
+	\end{enumerate}
+	Por tanto la seleccionada deberia ser la 4 puesto que la separacion del n-butano en la secuencia 3 es mas dificil de realizar que la del isobutano en la secuencia 4 aunque probablemente la secuencia 3 sea necesario por una extracción liquido liquido.}
+\end{raggedright}
+\subsection{Selección de Separaciones posibles}
+
+\noindent\textbf{Para seleccionar una operación de separación es necesario tener en cuenta:}
+\begin{enumerate}
+    \item\label{n:1} \textbf{Condiciones de la alimentación}
+    \begin{itemize}[label=-]
+        \item Composición, en especial de las especies a separar o recuperar
+        \item Caudales 
+    \end{itemize}
+
+    \item\label{n:2} \textbf{Condiciones de los productos}
+    \begin{itemize}[label=-]
+        \item Purezas requeridas
+    \end{itemize}
+
+    \item\label{n:3} \textbf{Aprovechamiento de las diferencias de propiedades}
+    \begin{itemize}[label=-]
+        \item Moleculares
+        \item Termodinámicas
+        \item De transporte
+    \end{itemize}
+
+    \item\label{n:4} \textbf{Características de la operación}
+    \begin{itemize}[label=-]
+        \item Facilidad de cambio de escala
+        \item Facilidad de puesta en marcha
+        \item Requerimientos de temperatura, presión y estado de agregación
+    \end{itemize}
+
+    \item\label{n:5} \textbf{Económicos}
+    \begin{itemize}[label=-]
+        \item Coste de la operación
+        \item Coste de la inversión
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Questionario}
+\qs{¿Cuáles son las dos operaciones clave en la ingeniería química?}{Son aquellas que modifican la composición química de la sustancia: reacciones químicas y separaciones de mezclas (de productos que están en equilibrio termodinámico)}
+\qs{¿Cuáles son las principales operaciones auxiliares en la ingeniería química?}{No involucran cambios en la composición química de la sustancia, pero son necesarias para el éxito de las operaciones clave. Son separaciones de fases (de productos que no están en equilibrio termodinámico), intercambiadores de calor, bombas o compresores, mezclado o división de corrientes, aglomeración de sólidos, reducción del tamaño de sólidos y separación de sólidos por tamaño.}
+\qs{\fontsize{8.55pt}{9pt}\selectfont¿Cuáles son las cinco técnicas básicas de separación y qué tienen todas ellas en común?}{
+	\begin{itemize}
+		\item Separación por adición de fase con un AMS
+		\item Separación por creación de fase con un AES
+		\item Por el uso de una barrera(membrana) que actúa en base a propiedades moleculares entre fases o sustancias relacionadas por el equilibrio termodinámico.
+		\item Separación por agente sólido
+		\item Separación por campo de fuerza o gradiente
+	\end{itemize}
+	Todas ellas tienen en común que requieren energía y que transforman una única corriente de entrada (alimentación, mezcla) en varias corrientes de salida (fases o productos que difieren en composición) por la acción del proceso de separación.
+}
+\qs{\fontsize{8.3pt}{10pt}\selectfont¿Por qué es la transferencia de masa un factor importante en los procesos de separación?}{La velocidad de transferencia de masa o de materia por difusión determina directamente el tamaño del equipo requerido para el proceso de separación.}
+\qs{¿Qué limita el grado en que se puede lograr la separación de una mezcla?}{El aprovechamiento de las diferencias en las propiedades moleculares y/o globales o macroscópicas (termodinámicas y de transporte)}
+\qs{¿Cuál es el método más común usado para separar dos fases fluidas?}{La destilación}
+\qs{\fontsize{8.55pt}{9pt}\selectfont¿Cuál es la diferencia entre un AES y un AMS? Da tres desventajas de usar un AMS.}{El AMS es una sustancia que añade una nueva fase a la alimentación y se suele solubilizar mejor con uno de los componentes y de este modo lo separa del resto ( posteriormente el AMS se debe separar del componente que ha retirado); mientras que el AES provoca la generación de una nueva fase por la acción de trabajo mecánico o energía.\\
+\textbf{Desventajas AMS:}
+\begin{itemize}
+	\item generación de pérdidas, es necesaria una separación adicional (normalmente con un AES) para separar el AMS de la sustancia retirada de la mezcla.
+	\item recirculación o recuperación del AMS, para minimizar las pérdidas se debe recircular o recuperar y se deben emplear medios para ello. 
+	\item Posible contaminación  del producto por el AMS, ninguna separación alcanza el 100$\%$ de éxito, luego el AMS puede impurificar el producto final que se retiró de la mezcla.
+	\item Procedimientos de diseño más difíciles, las operaciones con AMS son más difíciles de diseñar que aquellas con AES.
+\end{itemize}
+}
+\qs{¿Cuál es la operación de separación industrial más extensamente usada?}{La destilación, es la operación con mayor madurez tecnológica y de uso tiene y es la más extendida y más normalizada en cuanto a equipos, etc}
+\qs{¿Cuál es la diferencia entre absorción y adsorción?}{La técnica por la que se genera la nueva fase: En la absorción, por adición de fase con un AMS (líquido absorbente) y en la adsorción, por el contacto con un agente sólido adsorbente.
+\begin{itemize}
+	\item La absorción se aplica a fases vapor-líquido y la adsorción a fases fluido-sólido. Por lo tanto, la interfase generada y la transferencia de materia en cada una será diferente.
+\end{itemize}
+}
+\qs {}{El grado de separación en una operación de separación suele ser especificado en términos de recuperación de componentes y/o de purezas de productos. ¿ En qué se diferencia estos dos?}
+\sol La recuperación de un componente en un aparato en el que se lleva a cabo una operación de separación se define como el caudal molar individual del componente en la corriente de salida del aparato (más rica en las especies más volátiles) entre el caudal molar individual de dicho componente en la alimentación inicial del sistema; mientras que la pureza del producto se define como el caudal molar individual del componente en la corriente de salida del aparato (más rica en las especies más volátiles) entre el caudal total que entra a dicho aparato.
+\qs{¿Qué es un componente clave?}{Los componentes claves son sustancias para las cuales se diseña el dispositivo de separación con el interés de separarlas y/u obtenerlas. Normalmente se eligen dos compuestos clave; para el caso de dicha columna, si se ordenan en orden decreciente de volatilidaddes, los compuestos claves son adyacentes; el del menor punto de ebullición es llamado clave ligero y el de mayor punto de ebullición clave pesado.}
+\qs{¿Qué es un producto multicomponente?}{Producto final obtenido que está formado por varias sustancias }
+
+% \begin{equation*}
+%     A + B + \cancelto{0}{C} = A + B
+% \end{equation*}
+\chapter{Transferencia de masa}
+
+\end{document}
