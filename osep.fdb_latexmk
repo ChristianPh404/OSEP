@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1740636249.83108 "h:/universidad/3º/OSEP/git/OSEP/osep.tex" "osep.pdf" "osep" 1740636256.47294 0
+["pdflatex"] 1740636688.29738 "h:/universidad/3º/OSEP/git/OSEP/osep.tex" "osep.pdf" "osep" 1740636696.17696 0
   "C:/Users/chris/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1740633473.14957 157441 630ac9bca0e616d740d6f31fad22d781 ""
   "C:/Users/chris/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1722832897.67516 11548 2abb964a32ee8e835d96d77d3518d407 ""
   "C:/Users/chris/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1722832570.61 24247832 5cfe544f5bafed508f2820c9aa9015b6 ""
@@ -281,11 +281,11 @@
   "G:/Latex/tex/latex/xifthen/xifthen.sty" 1448274436 5689 1bfa68243e89a54479e7d0580773c57e ""
   "G:/Latex/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "Secuencias.PNG" 1740369546.47491 177941 fafbf1bbf7fc016c23b8c2481f6b9b5f ""
-  "h:/universidad/3º/OSEP/git/OSEP/osep.tex" 1740636248.32594 30567 69ec4f3a7d657e328adeac5238932a30 ""
+  "h:/universidad/3º/OSEP/git/OSEP/osep.tex" 1740636672.24296 31432 8ac0cd337fd86912b428971c8c4f92ce ""
   "letterfonts.tex" 1740071483.77149 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1740071483.77149 3477 30332a9dc4820add7ec8e91e30b45576 ""
-  "osep.aux" 1740636255.87045 10492 87203e67cfb24592acec51300f8a3fd6 "pdflatex"
-  "osep.toc" 1740636255.89094 1523 2a408185d062653ec84ccc96054abb6b "pdflatex"
+  "osep.aux" 1740636695.16047 11219 e4f2e82bfd919e7afd949c90d959fa74 "pdflatex"
+  "osep.toc" 1740636695.18496 1672 5f3aedf12f363c11373a7091fa64611f "pdflatex"
   "preamble.tex" 1740071483.77199 20995 eb918edb38bbe0aaa64e0d68ad96eec0 ""
   "problema1.jpg" 1740630896.34806 400055 c5fa6d8fdec6a5b3539a93285a8ed002 ""
   (generated)

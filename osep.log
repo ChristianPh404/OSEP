@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.5)  27 FEB 2025 07:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.5)  27 FEB 2025 07:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1293,6 +1293,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--16
  
  []
 
+
+Overfull \hbox (10.00003pt too wide) detected at line 17
+ []\OT1/cmr/m/n/10 11
+ []
+
+
+Overfull \hbox (10.00003pt too wide) detected at line 18
+ []\OT1/cmr/m/n/10 13
+ []
+
 Missing character: There is no ; in font nullfont!
 )
 \tf@toc=\write5
@@ -1321,7 +1331,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--74
 
 
 [3]
-<FR.png, id=124, 423.38174pt x 384.2355pt>
+<FR.png, id=128, 423.38174pt x 384.2355pt>
 File: FR.png Graphic file (type png)
 <use FR.png>
 Package pdftex.def Info: FR.png  used on input line 150.
@@ -1342,7 +1352,7 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 223.
 
 
 [7]
-<Secuencias.PNG, id=162, 752.8125pt x 437.83575pt>
+<Secuencias.PNG, id=166, 752.8125pt x 437.83575pt>
 File: Secuencias.PNG Graphic file (type png)
 <use Secuencias.PNG>
 Package pdftex.def Info: Secuencias.PNG  used on input line 279.
@@ -1354,7 +1364,7 @@ Package pdftex.def Info: Secuencias.PNG  used on input line 279.
 [9]
 
 [10]
-<problema1.jpg, id=205, 5139.2pt x 2890.8pt>
+<problema1.jpg, id=209, 5139.2pt x 2890.8pt>
 File: problema1.jpg Graphic file (type jpg)
 <use problema1.jpg>
 Package pdftex.def Info: problema1.jpg  used on input line 367.
@@ -1402,17 +1412,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 38215 strings out of 473904
- 749551 string characters out of 5743485
+ 38219 strings out of 473904
+ 749583 string characters out of 5743485
  1964908 words of memory out of 5000000
- 60309 multiletter control sequences out of 15000+600000
+ 60311 multiletter control sequences out of 15000+600000
  591272 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,12n,110p,755b,1766s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\chris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><G:/Latex/fonts/type1/public/newpx/NewPXMI.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr17.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr7.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr9.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmss10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><G:/Latex/fonts/type1/public/newpx/pxmiaX.pfb><G:/Latex/fonts/type1/public/newpx/pxsys.pfb><G:/Latex/fonts/type1/public/newtx/txexs.pfb>
-Output written on osep.pdf (15 pages, 898743 bytes).
+Output written on osep.pdf (15 pages, 900814 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 364 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 380 words of extra memory for PDF output out of 10000 (max. 10000000)
 
