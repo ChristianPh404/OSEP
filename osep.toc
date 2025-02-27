@@ -13,5 +13,6 @@
 \contentsline {subsection}{\numberline {1.1.8}Secuencias de separación}{8}{subsection.1.1.8}%
 \contentsline {subsection}{\numberline {1.1.9}Selección de Separaciones posibles}{8}{subsection.1.1.9}%
 \contentsline {subsection}{\numberline {1.1.10}Questionario}{9}{subsection.1.1.10}%
-\contentsline {chapter}{\numberline {2}Transferencia de masa}{12}{chapter.2}%
+\contentsline {section}{\numberline {1.2}Problemas}{11}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Transferencia de masa}{14}{chapter.2}%
 \contentsfinish 

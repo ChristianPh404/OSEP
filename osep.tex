@@ -7,6 +7,7 @@
 \usepackage{chemfig}
 \usepackage{multicol}
 \usepackage{fix-cm}
+\usepackage{booktabs}
 \title{\Huge{Operaciones de separación}\\Teoria y problemas}
 \author{\huge{Christian Perez hita}}
 \date{}
@@ -348,7 +349,79 @@ En una columna simple podemos distinguir dos zonas para una configuración ópti
 \sol La recuperación de un componente en un aparato en el que se lleva a cabo una operación de separación se define como el caudal molar individual del componente en la corriente de salida del aparato (más rica en las especies más volátiles) entre el caudal molar individual de dicho componente en la alimentación inicial del sistema; mientras que la pureza del producto se define como el caudal molar individual del componente en la corriente de salida del aparato (más rica en las especies más volátiles) entre el caudal total que entra a dicho aparato.
 \qs{¿Qué es un componente clave?}{Los componentes claves son sustancias para las cuales se diseña el dispositivo de separación con el interés de separarlas y/u obtenerlas. Normalmente se eligen dos compuestos clave; para el caso de dicha columna, si se ordenan en orden decreciente de volatilidaddes, los compuestos claves son adyacentes; el del menor punto de ebullición es llamado clave ligero y el de mayor punto de ebullición clave pesado.}
 \qs{¿Qué es un producto multicomponente?}{Producto final obtenido que está formado por varias sustancias }
+\section{Problemas}
+\begin{raggedright}
+	\textbf{Problema 01-01:} 
+	Se destilan 500kmol/h de una mezcla de alcoholes, contenido 40$\% _{mol}$ de metanol, 35$\% _{mol}$ de etanol,15$\% _{mol}$ de isopropanol y 10$\% _{mol}$ de n-propanol.
+		en dos columnas para su separación. El destilado de la primera columna es metanol con una pureza y recuperacion del 98$\% _{mol}$ y 96$\%$ respectivamente, 
+		El destilado de la segunda columna es etanol con una pureza del 92$\%$ mol y una recuperacion del 95$\% _{mol}$ respecto de la alimentación. Asúmase la ausencia de propanoles en el destilado de la primera columna, ausencia de metanol en los residuos de la segunda y ausencia de n-propanol en el destilado de la segunda columna.
+	\begin{enumerate}[label=\textbf{\alph*)}]
+		\item Dibuje el diagrama de bloques del proceso numerando las columnas y corrientes. Calcule los caudales molares totales y de cada componente en todas las corrientes y construya una tabla con los resultados obtenidos.
+		\item Calcule la pureza en propanoles en base molar del residuo de la segunda columna.
+		\item ¿Cuál seria la maxima pureza del etanol alcanzable en el destilado de la segunda columna si se mantiene su recuperación en el 95$\%$?
+		\item ¿Cuál seria la maxima recuperación (respecto de la alimentacíon) posible de etanol en el destilado de la segunda columna si su pureza se mantiene fija en el 92$\% _{mol}$? En este caso, ¿cuál seria el caudal molar total y de isopropanol en el destilado de la segunda columna?
+		\item Si se mantiene la recuperación total de etanol en el destilado de la segunda columna en el 95$\%$ y la razon de separacion de isopropanol en la segunda columna fuera 0.2 (destilado respecto a residuo), ¿cuál seria la pureza del etanol en el destilado de la segunda columna?
+	\end{enumerate}
+\sol
 
+	\includegraphics[width=1\textwidth]{problema1.jpg}\\
+\textbf{A)}\\
+\vspace{1\baselineskip}
+\begin{enumerate}
+	\item [] \textbf{Corriente1 :} metanol 500 $\cdot $ 0.4 = 200 kmol/h, etanol 500 $\cdot $ 0.35 = 175 kmol/h, isopropanol 500 $\cdot $ 0.15 = 75 kmol/h, n-propanol 500 $\cdot $ 0.1 = 50 kmol/h.\\
+	\item [] \textbf{Corriente2 :} metanol 200 $\cdot $ 0.92 = 192 kmol/h, Recuperacion 192$\cdot$ 0.98 = 195.92 kmol/h totales $\xrightarrow[]{x_{etanol}}$ 195.92 $\cdot$ 0.02 = 3.92 kmol/h \\
+	\item [] \textbf{Corriente3 :} metanol 200 $\cdot $ Caudal total = 500-195.92 = 304.08 kmol/h, BM: $\rightarrow$ 200-192 = 8 kmol/h, etanol 175-3.92 = 171.08 kmol/h, isopropanol 75 kmol/h, n-propanol 50 kmol/h.\\
+	\item [] \textbf{Corriente4 :} etanol 175 $\cdot$ 0.95 = 166.25 kmol/h $\xrightarrow{x_{et}=92\%}$ $\frac{166.25}{0.92}$= 180.71 kmol/h totales
+	\item [] como todo  el metanol de la corriente 3 se queda en la corriente 4, caudal de metanol = 8 kmol/h , isopropanol = 180.71 - 8 = 172.71 kmol/h.\\
+	\item [] \textbf{Corriente5 :} BM total = C3-C4 = 304.08-180.71 = 123.37 kmol/h, metanol 8kmol/h , etanol 171.08 - 166.25 = 4.83 kmol/h, isopropanol 75 - 6.46 = 68.54 kmol/h, n-propanol 50 kmol/h.
+\end{enumerate}
+\end{raggedright}
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.2}  % Aumenta el espaciado entre filas para mejor legibilidad
+    \begin{tabular}{lccccc}
+        \toprule
+        \textbf{Corriente} & \textbf{Met (kmol/h)} & \textbf{Et (kmol/h)} & \textbf{Isoprop (kmol/h)} & \textbf{N-Prop (kmol/h)}  & \textbf{Total (kmol/h)}\\
+        \midrule
+        \textbf{Corriente 1} & 200 & 175 & 75 & 50 & 500\\
+        \textbf{Corriente 2} & 192 & 3.92 & - & - & 195.92\\
+        \textbf{Corriente 3} & 8 & 171.08 & 75 & 50 & 304.08\\
+        \textbf{Corriente 4} & 8 & 166.25 & 6.46 & - & 180.71\\
+        \textbf{Corriente 5} & 8 & 4.83 & 68.54 & 50 & 123.37\\
+        \bottomrule
+    \end{tabular}
+    \caption{Caudales molares de cada corriente en kmol/h}
+    \label{tabla-caudales}
+\end{table}
+\begin{raggedright}
+\textbf{B)}\\
+\vspace{1\baselineskip}
+Pureza de propanoles:\\
+\begin{equation*}
+	P_{IP + NP} = \frac{68.54 + 50}{123.37} \cdot 100 = 100\%
+\end{equation*}
+
+\textbf{C)}\\
+\vspace{1\baselineskip}
+misma pureza del etanol , al recuperarse el 95$\%$ Isopropanol = 0 
+\begin{equation*}
+		P_{\text{et},4} = \frac{\text{kmol/h de etanol}}{\text{kmol/h totales}} = \frac{166.25}{166.25 + 8} \times 100 = 95.4\%
+\end{equation*}
+
+\end{raggedright}
+\nt{Debido a que el metanol permanece en la corriente 4 y al conseguir que el isopropanol salga por 5}
+\vspace{2\baselineskip}
+\textbf{D)}\\
+
+177.08 kmol/h de etanol en 4, la minima que se puede recuperar de 3 a 4 es el mismo etanol.\\
+	% \begin{equation*}
+	% 	177.08 \frac{\text{kmol et}}{\text{h}} \times \frac{\text{kmol total}}{0.92 \, \text{kmol et}} = 185.96 \frac{\text{kmol total}}{\text{h}}
+	% \end{equation*}
+	
+	% \begin{equation*}
+	% 	\text{Isopropanol} = 185.96 - 171.08 - 8 = 6.88 \frac{\text{kmol isopropanol}}{\text{h}}
+	% \end{equation*}
+	% \nt{Como se recupera mas etanol en la corriente respecto de la alimentacion (175) para mantener el 92$\%$ de recuperacion hay que modificar el caudal de entrada}
 % \begin{equation*}
 %     A + B + \cancelto{0}{C} = A + B
 % \end{equation*}

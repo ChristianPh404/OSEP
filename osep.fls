@@ -388,6 +388,8 @@ INPUT G:\Latex\tex\generic\simplekv\simplekv.tex
 INPUT G:\Latex\tex\latex\base\fix-cm.sty
 INPUT G:\Latex\tex\latex\base\fix-cm.sty
 INPUT G:\Latex\tex\latex\base\ts1enc.def
+INPUT G:\Latex\tex\latex\booktabs\booktabs.sty
+INPUT G:\Latex\tex\latex\booktabs\booktabs.sty
 INPUT .\osep.aux
 INPUT .\osep.aux
 INPUT osep.aux
@@ -555,6 +557,16 @@ INPUT .\Secuencias.PNG
 INPUT .\Secuencias.PNG
 INPUT G:\Latex\fonts\tfm\public\cm\cmbx8.tfm
 INPUT G:\Latex\fonts\tfm\public\cm\cmbx8.tfm
+INPUT .\problema1.jpg
+INPUT .\problema1.jpg
+INPUT .\problema1.jpg
+INPUT .\problema1.jpg
+INPUT .\problema1.jpg
+INPUT .\problema1.jpg
+INPUT .\problema1.jpg
+INPUT G:\Latex\fonts\vf\public\newpx\zplmia.vf
+INPUT G:\Latex\fonts\tfm\public\newpx\pxmiaX.tfm
+INPUT G:\Latex\fonts\tfm\public\newtx\txmiaSTbb.tfm
 INPUT osep.aux
 INPUT C:\Users\chris\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\chris\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk

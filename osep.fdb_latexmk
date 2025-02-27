@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740372735.69131 "h:/universidad/3º/OSEP/git/OSEP/osep.tex" "osep.pdf" "osep" 1740372741.69308 0
-  "C:/Users/chris/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1740004052.46604 157441 630ac9bca0e616d740d6f31fad22d781 ""
+["pdflatex"] 1740636249.83108 "h:/universidad/3º/OSEP/git/OSEP/osep.tex" "osep.pdf" "osep" 1740636256.47294 0
+  "C:/Users/chris/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1740633473.14957 157441 630ac9bca0e616d740d6f31fad22d781 ""
   "C:/Users/chris/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1722832897.67516 11548 2abb964a32ee8e835d96d77d3518d407 ""
   "C:/Users/chris/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1722832570.61 24247832 5cfe544f5bafed508f2820c9aa9015b6 ""
   "FR.png" 1740370030.14107 66005 0c660a717f529eb970f6c77b29f772eb ""
@@ -171,6 +171,7 @@
   "G:/Latex/tex/latex/base/ts1enc.def" 1719393830 8090 f16408278fc28f119d5a6757c212f57e ""
   "G:/Latex/tex/latex/bookmark/bkm-pdftex.def" 1702988341 8818 aa5157b46368efebf023abff55611467 ""
   "G:/Latex/tex/latex/bookmark/bookmark.sty" 1702988341 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
+  "G:/Latex/tex/latex/booktabs/booktabs.sty" 1579093635 6253 71987c78d3b294f5a70855024b9b06cc ""
   "G:/Latex/tex/latex/cancel/cancel.sty" 1388370247 7592 dd751af313a16a0308545d5bfd7aaaa2 ""
   "G:/Latex/tex/latex/chemfig/chemfig.sty" 1704622054 388 2f9ccd1a71661ff4bea57e7855b0518e ""
   "G:/Latex/tex/latex/comment/comment.sty" 1468691282 10197 204f75d5d8d88aa345a8c402e879e63b ""
@@ -280,12 +281,13 @@
   "G:/Latex/tex/latex/xifthen/xifthen.sty" 1448274436 5689 1bfa68243e89a54479e7d0580773c57e ""
   "G:/Latex/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "Secuencias.PNG" 1740369546.47491 177941 fafbf1bbf7fc016c23b8c2481f6b9b5f ""
-  "h:/universidad/3º/OSEP/git/OSEP/osep.tex" 1740372722.08056 25434 f391828c4a4a313071bb03123e0b006c ""
+  "h:/universidad/3º/OSEP/git/OSEP/osep.tex" 1740636248.32594 30567 69ec4f3a7d657e328adeac5238932a30 ""
   "letterfonts.tex" 1740071483.77149 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1740071483.77149 3477 30332a9dc4820add7ec8e91e30b45576 ""
-  "osep.aux" 1740372741.05308 9906 6cf0c2e13b4d0b343467d102dedc7dfe "pdflatex"
-  "osep.toc" 1740372741.07658 1453 fc4b791aebc3798e152d124cf1224f98 "pdflatex"
+  "osep.aux" 1740636255.87045 10492 87203e67cfb24592acec51300f8a3fd6 "pdflatex"
+  "osep.toc" 1740636255.89094 1523 2a408185d062653ec84ccc96054abb6b "pdflatex"
   "preamble.tex" 1740071483.77199 20995 eb918edb38bbe0aaa64e0d68ad96eec0 ""
+  "problema1.jpg" 1740630896.34806 400055 c5fa6d8fdec6a5b3539a93285a8ed002 ""
   (generated)
   "osep.aux"
   "osep.log"
