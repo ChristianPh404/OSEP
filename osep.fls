@@ -567,6 +567,13 @@ INPUT .\problema1.jpg
 INPUT G:\Latex\fonts\vf\public\newpx\zplmia.vf
 INPUT G:\Latex\fonts\tfm\public\newpx\pxmiaX.tfm
 INPUT G:\Latex\fonts\tfm\public\newtx\txmiaSTbb.tfm
+INPUT .\02_04.png
+INPUT .\02_04.png
+INPUT .\02_04.png
+INPUT .\02_04.png
+INPUT .\02_04.png
+INPUT .\02_04.png
+INPUT .\02_04.png
 INPUT osep.aux
 INPUT C:\Users\chris\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\chris\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
@@ -584,6 +591,8 @@ INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmr9.pfb
@@ -592,6 +601,8 @@ INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT G:\Latex\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
+INPUT G:\Latex\fonts\type1\public\amsfonts\latxfont\line10.pfb
+INPUT G:\Latex\fonts\type1\public\amsfonts\latxfont\line10.pfb
 INPUT G:\Latex\fonts\type1\public\newpx\pxmiaX.pfb
 INPUT G:\Latex\fonts\type1\public\newpx\pxmiaX.pfb
 INPUT G:\Latex\fonts\type1\public\newpx\pxsys.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.5)  27 FEB 2025 07:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.5)  3 MAR 2025 05:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1127,44 +1127,44 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 ) (osep.aux)
 \openout1 = `osep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 15.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 15.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 17.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 17.
  (G:\Latex\tex/latex/newpx\omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 15.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 17.
  (G:\Latex\tex/latex/newpx\unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 15.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 17.
  (G:\Latex\tex/latex/newpx\lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 15.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 17.
  (G:\Latex\tex/latex/newpx\lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1200,8 +1200,8 @@ LaTeX Font Info:    ... okay on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 15.
-LaTeX Info: Command `\ddddot' is already robust on input line 15.
+LaTeX Info: Command `\dddot' is already robust on input line 17.
+LaTeX Info: Command `\ddddot' is already robust on input line 17.
 (G:\Latex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count478
@@ -1221,7 +1221,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (G:\Latex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 17.
 \c@lstlisting=\count484
  (G:\Latex\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -1236,23 +1236,23 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
  (G:\Latex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (G:\Latex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 18.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 20.
  (G:\Latex\tex/latex/newpx\unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 18.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 20.
  (G:\Latex\tex/latex/newpx\unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 18.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 20.
  (G:\Latex\tex/latex/newpx\unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
@@ -1262,7 +1262,7 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 {C:/Users/chris/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 22.
+(Font)              using `OT1/cmr/bx/n' instead on input line 24.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1300,10 +1300,45 @@ Overfull \hbox (10.00003pt too wide) detected at line 17
 
 
 Overfull \hbox (10.00003pt too wide) detected at line 18
- []\OT1/cmr/m/n/10 13
+ []\OT1/cmr/m/n/10 14
  []
 
 Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
+ 
+ []
+
+
+Overfull \hbox (10.00003pt too wide) detected at line 27
+ []\OT1/cmr/m/n/10 18
+ []
+
+
+Overfull \hbox (10.00003pt too wide) detected at line 28
+ []\OT1/cmr/m/n/10 19
+ []
+
+
+Overfull \hbox (10.00003pt too wide) detected at line 29
+ []\OT1/cmr/m/n/10 19
+ []
+
+
+Overfull \hbox (10.00003pt too wide) detected at line 30
+ []\OT1/cmr/m/n/10 19
+ []
+
+
+Overfull \hbox (10.00003pt too wide) detected at line 31
+ []\OT1/cmr/m/n/10 20
+ []
+
+
+Overfull \hbox (10.00003pt too wide) detected at line 32
+ []\OT1/cmr/m/n/10 20
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `osep.toc'.
@@ -1314,7 +1349,7 @@ Missing character: There is no ; in font nullfont!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 
+l.26 
       [1
 
 ]
@@ -1324,17 +1359,17 @@ Chapter 1.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 67--74
+Underfull \hbox (badness 10000) in paragraph at lines 69--76
 
  []
 
 
 
 [3]
-<FR.png, id=128, 423.38174pt x 384.2355pt>
+<FR.png, id=161, 423.38174pt x 384.2355pt>
 File: FR.png Graphic file (type png)
 <use FR.png>
-Package pdftex.def Info: FR.png  used on input line 150.
+Package pdftex.def Info: FR.png  used on input line 152.
 (pdftex.def)             Requested size: 368.78735pt x 334.69258pt.
 
 
@@ -1344,18 +1379,18 @@ Package pdftex.def Info: FR.png  used on input line 150.
 
 [6]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 223.
+LaTeX Font Warning: Command \large invalid in math mode on input line 225.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 223.
+LaTeX Font Warning: Command \large invalid in math mode on input line 225.
 
 
 
 [7]
-<Secuencias.PNG, id=166, 752.8125pt x 437.83575pt>
+<Secuencias.PNG, id=199, 752.8125pt x 437.83575pt>
 File: Secuencias.PNG Graphic file (type png)
 <use Secuencias.PNG>
-Package pdftex.def Info: Secuencias.PNG  used on input line 279.
+Package pdftex.def Info: Secuencias.PNG  used on input line 281.
 (pdftex.def)             Requested size: 322.6863pt x 187.6778pt.
 
 
@@ -1364,44 +1399,114 @@ Package pdftex.def Info: Secuencias.PNG  used on input line 279.
 [9]
 
 [10]
-<problema1.jpg, id=209, 5139.2pt x 2890.8pt>
+<problema1.jpg, id=242, 5139.2pt x 2890.8pt>
 File: problema1.jpg Graphic file (type jpg)
 <use problema1.jpg>
-Package pdftex.def Info: problema1.jpg  used on input line 367.
+Package pdftex.def Info: problema1.jpg  used on input line 369.
 (pdftex.def)             Requested size: 491.43513pt x 276.39325pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 367--367
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 369--369
 [][]  
  []
 
 
 
 [11]
-Overfull \hbox (19.73766pt too wide) in paragraph at lines 382--393
+Overfull \hbox (19.73766pt too wide) in paragraph at lines 384--395
  [][] 
  []
 
 
 
 [12 <./problema1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--420
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--440
 
  []
 
 
 
 [13]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--514
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
+
+ []
+
+
+
+[14]
+
+[15]
 Chapter 2.
 
 
-[14
+[16
 
-] (osep.aux)
+]
+
+[17]
+
+[18]
+<02_04.png, id=311, 621.82312pt x 402.00188pt>
+File: 02_04.png Graphic file (type png)
+<use 02_04.png>
+Package pdftex.def Info: 02_04.png  used on input line 747.
+(pdftex.def)             Requested size: 393.1496pt x 254.17035pt.
+
+
+[19]
+
+[20 <./02_04.png>]
+
+[21] (osep.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1412,17 +1517,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 38219 strings out of 473904
- 749583 string characters out of 5743485
+ 38290 strings out of 473904
+ 750398 string characters out of 5743485
  1964908 words of memory out of 5000000
- 60311 multiletter control sequences out of 15000+600000
+ 60345 multiletter control sequences out of 15000+600000
  591272 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,12n,110p,755b,1766s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\chris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><G:/Latex/fonts/type1/public/newpx/NewPXMI.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr17.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr7.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr9.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmss10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><G:/Latex/fonts/type1/public/newpx/pxmiaX.pfb><G:/Latex/fonts/type1/public/newpx/pxsys.pfb><G:/Latex/fonts/type1/public/newtx/txexs.pfb>
-Output written on osep.pdf (15 pages, 900814 bytes).
+ 103i,12n,110p,846b,1851s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\chris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><G:/Latex/fonts/type1/public/newpx/NewPXMI.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr17.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr5.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr7.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmr9.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmss10.pfb><G:/Latex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><G:/Latex/fonts/type1/public/amsfonts/latxfont/line10.pfb><G:/Latex/fonts/type1/public/newpx/pxmiaX.pfb><G:/Latex/fonts/type1/public/newpx/pxsys.pfb><G:/Latex/fonts/type1/public/newtx/txexs.pfb>
+Output written on osep.pdf (22 pages, 1138692 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 380 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 513 words of extra memory for PDF output out of 10000 (max. 10000000)
 

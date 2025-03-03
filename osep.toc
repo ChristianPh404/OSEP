@@ -14,7 +14,20 @@
 \contentsline {subsection}{\numberline {1.1.9}Selección de Separaciones posibles}{8}{subsection.1.1.9}%
 \contentsline {subsection}{\numberline {1.1.10}Questionario}{9}{subsection.1.1.10}%
 \contentsline {section}{\numberline {1.2}Problemas}{11}{section.1.2}%
-\contentsline {subsubsection}{\textbf {Problema 01-01:} }{11}{section*.5}%
-\contentsline {subsubsection}{\textbf {Problema 01-02:}}{13}{section*.6}%
-\contentsline {chapter}{\numberline {2}Transferencia de masa}{14}{chapter.2}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 01-01:}}}{11}{section*.5}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 01-02:}}}{14}{section*.6}%
+\contentsline {chapter}{\numberline {2}Transferencia de masa}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introducción}{16}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Difusión molecular en Estado estacionario}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Velocidades de las especies en difusión}{17}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Contradifusión molecular EMD}{17}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Difusión unimolecular UMD}{18}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Transferencia de materia a través de un medio estatico:}{18}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Problemas}{18}{section.2.2}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 02-01:}}}{18}{section*.7}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 02-02:}}}{19}{section*.8}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 02-03:}}}{19}{section*.9}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 02-04:}}}{19}{section*.10}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 02-05:}}}{20}{section*.11}%
+\contentsline {subsubsection}{\textbf {\textcolor {cyan}{Problema 02-06:}}}{20}{section*.12}%
 \contentsfinish 

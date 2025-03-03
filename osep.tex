@@ -8,6 +8,8 @@
 \usepackage{multicol}
 \usepackage{fix-cm}
 \usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{cancel}
 \title{\Huge{Operaciones de separación}\\Teoria y problemas}
 \author{\huge{Christian Perez hita}}
 \date{}
@@ -351,7 +353,7 @@ En una columna simple podemos distinguir dos zonas para una configuración ópti
 \qs{¿Qué es un producto multicomponente?}{Producto final obtenido que está formado por varias sustancias }
 \section{Problemas}
 \begin{raggedright}
-	\subsubsection{\textbf{Problema 01-01:} }
+	\subsubsection{\textbf{\textcolor{cyan}{Problema 01-01:}}}
 	Se destilan 500kmol/h de una mezcla de alcoholes, contenido 40$\% _{mol}$ de metanol, 35$\% _{mol}$ de etanol,15$\% _{mol}$ de isopropanol y 10$\% _{mol}$ de n-propanol.
 		en dos columnas para su separación. El destilado de la primera columna es metanol con una pureza y recuperacion del 98$\% _{mol}$ y 96$\%$ respectivamente, 
 		El destilado de la segunda columna es etanol con una pureza del 92$\%$ mol y una recuperacion del 95$\% _{mol}$ respecto de la alimentación. Asúmase la ausencia de propanoles en el destilado de la primera columna, ausencia de metanol en los residuos de la segunda y ausencia de n-propanol en el destilado de la segunda columna.
@@ -369,7 +371,7 @@ En una columna simple podemos distinguir dos zonas para una configuración ópti
 \vspace{1\baselineskip}
 \begin{enumerate}
 	\item [] \textbf{Corriente1 :} metanol 500 $\cdot $ 0.4 = 200 kmol/h, etanol 500 $\cdot $ 0.35 = 175 kmol/h, isopropanol 500 $\cdot $ 0.15 = 75 kmol/h, n-propanol 500 $\cdot $ 0.1 = 50 kmol/h.\\
-	\item [] \textbf{Corriente2 :} metanol 200 $\cdot $ 0.92 = 192 kmol/h, Recuperacion 192$\cdot$ 0.98 = 195.92 kmol/h totales $\xrightarrow[]{x_{etanol}}$ 195.92 $\cdot$ 0.02 = 3.92 kmol/h \\
+	\item [] \textbf{Corriente2 :} metanol 200 $\cdot $ 0.96 = 192 kmol/h, Recuperacion 192$\cdot$ 0.98 = 195.92 kmol/h totales $\xrightarrow[]{x_{etanol}}$ 195.92 $\cdot$ 0.02 = 3.92 kmol/h \\
 	\item [] \textbf{Corriente3 :} metanol 200 $\cdot $ Caudal total = 500-195.92 = 304.08 kmol/h, BM: $\rightarrow$ 200-192 = 8 kmol/h, etanol 175-3.92 = 171.08 kmol/h, isopropanol 75 kmol/h, n-propanol 50 kmol/h.\\
 	\item [] \textbf{Corriente4 :} etanol 175 $\cdot$ 0.95 = 166.25 kmol/h $\xrightarrow{x_{et}=92\%}$ $\frac{166.25}{0.92}$= 180.71 kmol/h totales
 	\item [] como todo  el metanol de la corriente 3 se queda en la corriente 4, caudal de metanol = 8 kmol/h , isopropanol = 180.71 - 8 = 172.71 kmol/h.\\
@@ -387,7 +389,7 @@ En una columna simple podemos distinguir dos zonas para una configuración ópti
         \textbf{Corriente 2} & 192 & 3.92 & - & - & 195.92\\
         \textbf{Corriente 3} & 8 & 171.08 & 75 & 50 & 304.08\\
         \textbf{Corriente 4} & 8 & 166.25 & 6.46 & - & 180.71\\
-        \textbf{Corriente 5} & 8 & 4.83 & 68.54 & 50 & 123.37\\
+        \textbf{Corriente 5} & 0 & 4.83 & 68.54 & 50 & 123.37\\
         \bottomrule
     \end{tabular}
     \caption{Caudales molares de cada corriente en kmol/h}
@@ -398,14 +400,14 @@ En una columna simple podemos distinguir dos zonas para una configuración ópti
 \vspace{1\baselineskip}
 Pureza de propanoles:\\
 \begin{equation*}
-	P_{IP + NP} = \frac{68.54 + 50}{123.37} \cdot 100 = 100\%
+	P_{IP + NP} = \frac{68.54 + 50}{123.37} \cdot 100 = 96.08\%
 \end{equation*}
 
 \textbf{C)}\\
 \vspace{1\baselineskip}
 misma pureza del etanol , al recuperarse el 95$\%$ Isopropanol = 0 
 \begin{equation*}
-		P_{\text{et},4} = \frac{\text{kmol/h de etanol}}{\text{kmol/h totales}} = \frac{166.25}{166.25 + 8} \times 100 = 95.4\%
+		P_{\text{et},4} = \frac{\text{kmol/h de etanol}}{\text{kmol/h totales}} = \frac{166.25+8}{180.71} \times 100 = 95.41\%
 \end{equation*}
 
 \end{raggedright}
@@ -413,19 +415,47 @@ misma pureza del etanol , al recuperarse el 95$\%$ Isopropanol = 0
 \vspace{2\baselineskip}
 \textbf{D)}\\
 
-177.08 kmol/h de etanol en 4, la minima que se puede recuperar de 3 a 4 es el mismo etanol.\\
-	% \begin{equation*}
-	% 	177.08 \frac{\text{kmol et}}{\text{h}} \times \frac{\text{kmol total}}{0.92 \, \text{kmol et}} = 185.96 \frac{\text{kmol total}}{\text{h}}
-	% \end{equation*}
-	
-	% \begin{equation*}
-	% 	\text{Isopropanol} = 185.96 - 171.08 - 8 = 6.88 \frac{\text{kmol isopropanol}}{\text{h}}
-	% \end{equation*}
-	% \nt{Como se recupera mas etanol en la corriente respecto de la alimentacion (175) para mantener el 92$\%$ de recuperacion hay que modificar el caudal de entrada}
+\noindent hay que suponer que el etanol de la corriente 3 = 4, es decir 171.08 kmol/h al dividirlo por la alimentacion del primer separador:
+\begin{equation*}
+	\frac{171.08}{175} \cdot 100 = 97.76\%	
+\end{equation*}
+Al aumentar la pureza del isopropanol para maximizar la recuperacion del etanol manteniendo la pureza, hay que modificar la corriente de entrada para diluir la concentracion.
+\begin{equation*}
+	\frac{171.08}{0.92} = 185.96 \text{ kmol/h}
+\end{equation*}
+de donde  185.96 - 171.08 - 8 = 6.88 kmol/h de isopropanol\\
+
+\vspace{1\baselineskip}
+\noindent \textbf{E)}\\
+
+\noindent Usando la razón de separación:
+
+\begin{equation*}
+	SR_{IP} = \frac{n_{IP}^4}{n_{IP}^5} = 0.2
+\end{equation*}
+\vspace{1\baselineskip}
+\noindent BM IP. : nip$^1_{C1}$ = nip$^4_{C2}$ +nip$^5_{C2}$ = 75 kmol/h\\
+\vspace{1\baselineskip}
+\noindent Donde tenemos un sistema de 2 ecuaciones con 2 incognitas.\\
+
+\begin{itemize}
+	\item nip$^5_{C2}$ = 62.5 kmol/h
+	\item nip$^4_{C2}$ = 12.5 kmol/h
+\end{itemize}
+\vspace{1\baselineskip}
+\begin{raggedright}
+	La corriente 5 debe tener un caudal de 117.33kmol/h ya que el isopropanol ha variado de 68.54 a 62.5 kmol/h.\\
+	\vspace{1\baselineskip}
+	al modificar el caudal a  166.25 + 8 +12.5 = 186.75 kmol/h en la corriente 4.\\
+\begin{equation*}
+	\text{Pureza de etanol en la corriente 4 = } \frac{166.25 + 8}{186.75} \cdot 100 = 89.02\%
+\end{equation*}
+\end{raggedright}
+
 % \begin{equation*}
 %     A + B + \cancelto{0}{C} = A + B
 % \end{equation*}
-\subsubsection{\textbf{Problema 01-02:}} 
+\subsubsection{\textbf{\textcolor{cyan}{Problema 01-02:}}} 
 \begin{raggedright}
 	Se pretende recuperar hidrógeno de una mezcla de gases mediante un proceso de permeación gaseosa en la membrana. La mezcla gaseosa está compuesta por 42.4 kmol/h de H$_2$, 7.0 kmol/h de CH$_4$ y 0.5 kmol/h de N$_2$. 
 	La membrana utilizada no es permeable al N$_2$. Conociendo que el factor de separación del hidrógeno respecto del metano es 34.13 (en base molar) y que la fracción de separación del hidrogeno en el permeado es de 0.6038 
@@ -433,7 +463,325 @@ misma pureza del etanol , al recuperarse el 95$\%$ Isopropanol = 0
 		\item Dibuje el diagrama de bloques del proceso. Calcule los caudales molares totales y de cada componente en las corrientes de permeado y retentato , y construya una tabla con los resultados obtenidos.
 		\item Calcule la pureza en, en base molar, del hidrógeno en el permeado.
 	\end{itemize}
-\end{raggedright}
-\chapter{Transferencia de masa}
+\end{raggedright} 
 
+\sol \\
+
+\noindent \textbf{A)}\\
+
+\begin{multicols}{2}
+	\noindent
+	\begin{equation*}
+		nH_2^F = 42.4 \text{ Kmol/h}
+	\end{equation*}
+	
+	\begin{equation*}
+		nCH_4^F = 7 \text{ Kmol/h}
+	\end{equation*}
+	
+	\begin{equation*}
+		nN_2^F = 0.5 \text{ Kmol/h}
+	\end{equation*}
+	
+	\columnbreak
+	
+	\begin{equation*}
+		nH_2^P = 0 \text{ Kmol/h}
+	\end{equation*}
+	
+	\begin{equation*}
+		SP_{H_2,CH_4} = 34.13
+	\end{equation*}
+	
+	\begin{equation*}
+		SF_{H_2}^P = 0.6038
+	\end{equation*}
+	\end{multicols}
+
+\begin{equation*}
+    SF_{H_2}^P = nH_2^P = SF_{H_2}^P \cdot nH_2^F = 0.6038 \cdot 42.4 = 25.6 \text{ Kmol/h}
+\end{equation*}\\
+
+\noindent Por balance de materia en la membrana: $nH_2^F = nH_2^P + nH_2^R$\\
+
+\noindent es decir $nH_2^R = 42.4 - 25.6 = 16.8$ Kmol/h\\
+
+\noindent  Usando el factor de separación:
+\begin{equation*}
+	SP_{H_2,CH_4} = \frac{nH_2^P/nH_2^R}{nCH_4^P/nCH_4^R} = 34.13
+\end{equation*}
+y por BM: $nCH_4^R$ = $nCH_4^F$ - $nCH_4^P$ = 7 - $nCH_4^P$\\
+
+Lo cual es un sistema de 2 ecuaciones con 2 incognitas.\\
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.2}  % Aumenta el espaciado entre filas para mejor legibilidad
+    \begin{tabular}{lccc}
+        \toprule
+        \textbf{Componente} & \textbf{Alimentación} & \textbf{Retenido} & \textbf{Permeado} \\
+        \midrule
+        \textbf{H$_2$ (Kmol/h)} & 42.4 & 16.8 & 25.6 \\
+        \textbf{CH$_4$ (Kmol/h)} & 7  & 6.7 & 0.3\\
+        \textbf{N$_2$ (Kmol/h)} & 0.5 & 0.5 & 0 \\
+        \midrule
+        \textbf{Total (Kmol/h)} & 49.9 & 24.0 & 25.9 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Flujo molar en cada corriente}
+\end{table}
+
+\noindent se puede comprobar como la suma del retenido y el permeado es igual a la alimentación.\\
+
+\noindent \textbf{B)}\\
+
+\noindent la pureza del H$_2$ en el permeado es:
+\begin{equation*}
+	P_{H_2}^P = \frac{nH_2^P}{n_T^P} \cdot 100 = \frac{25.6}{25.9} \cdot 100 = 98.84\%
+\end{equation*}
+%! ----------------------------------------------------------------------------------------------------------
+%! ----------------------------------------------------------------------------------------------------------
+\chapter{Transferencia de masa}
+\section{Introducción}
+\begin{raggedright}
+	\textbf{Transferencia de materia:} movimiento de una especie en una mezcla dada desde un punto a otro. dicho transporte
+	se da a través de una interfase. (ejemplo: en una destilacion la interfase se trata de la superficie de contacto entre el liquido y el vapor)\\
+\vspace{2\baselineskip}
+\textbf{Mecanismos}
+	\begin{itemize}
+		\item DifusiÓn molecular
+		\item Difusión turbulenta
+		\item Transporte másico
+	\end{itemize}
+\begin{enumerate}
+	\item \textbf{Difusión molecular:} movimiento macroscopico y espontaneo de las moleculas como resultado de la agitación termica.\\
+	\item \textbf{Difusión turbulenta:} Producido por el movimiento aleatorio del fluido a escala macroscópica, debido a que el fluido se encuentra en régimen de circulación turbulento.\\
+	\item \textbf{Transporte másico:} producido por el porpio desplazamiento global del fluido.\\
+\end{enumerate}
+Comparamos la difusion turbulenta (mas usada) con la molecular, la difusión turbulenta es mucho más rápida, por lo que en las operaciones de separación
+sera la que mas nos interese, ademas buscamos maximizar las superficies de contacto para aumentar la velocidad de transferencia de la materia.\\
+
+Para sistemas multifasicos el equilibrio de las fases determina la extension de la separación a mayor extension ( mas facil sera de separar/mas cantidad podemos separar)
+Tambien debemos ver con que velocidad vamos a realizar dicha extensión (Para cineticas rapidas nos basamos en el equilibrio mientras para lentas en la transferencia de materia)\\
+\nt{Las membranas usan transferencia de materia}
+
+\mlenma{}{Fuerzas impulsoras de la transferencia de materia: Gradiente de concentración, Presión, Temperatura, Campos de fuerza....}
+\textbf{Transferencia de materia por gradiente de concentración:}
+\begin{itemize}
+    \item \textbf{Fluido en reposo:} La transferencia de materia se da por difusión molecular.
+    \item \textbf{Fluido en movimiento:} Depende del régimen en el que se encuentre.
+    \begin{itemize}
+        \item \textbf{Régimen laminar:} Difusión molecular y transporte másico.
+        \item \textbf{Régimen turbulento:} Difusión turbulenta, difusión molecular y transporte másico 
+              (aunque la difusión turbulenta desaparece en cercanías de la interfase).
+    \end{itemize}
+\end{itemize}
+%*                                    Insertar dibujo de transferencia de materia
+\end{raggedright}
+\subsection{Difusión molecular en Estado estacionario}
+\begin{raggedright}
+	\begin{itemize}
+		\item Dicha transmision de materia por difusión molecular ordinaria en una mezcla es producida por gradiente de concentracion
+		en direccion opuesta a la concentración, es decir sigue aquella en la que disminuye la concentración.
+		\item La velocidad de transmisión de materia es proporcional a la direccion de la transmision de materia.
+		\item -----
+	\end{itemize}
+con estas 3 bases se obtiene la primera ley de fick de la difusión.\\
+%*                                    Insertar dibujo 
+el gradiente de concentración es negativo en la dirección de difusión porque va de A a A', es decir de mayor concentración a menor conforme se avanza por Z.\\
+\begin{equation*}
+	c_i = x_i \cdot c
+\end{equation*}
+\subsection{Velocidades de las especies en difusión}
+\begin{enumerate}
+	\item Velocidad media molar de la mezcla respecto a ejes estacionarios.
+	\begin{equation*}
+		V_m = \frac{N}{C} = \frac{mol/S m^2}{mol/m^3} = m/s = \frac{NA+NB}{C}
+	\end{equation*}
+	\item Velocidad de la especie i respecto a ejes estacionarios.
+	\begin{equation*}
+		V_i = \frac{N_i}{C} \rightarrow \text{Como xi = Ci/c} \rightarrow V_m = x_a \cdot V_a + x_b \cdot V_b
+	\end{equation*}
+	\item Velocidad difusión de la especie i respecto a vm.
+	\begin{equation*}
+		V_{Di} = V_i - V_m 
+	\end{equation*}
+\end{enumerate}
+Si lo combinamos se obtiene la siguiente expresion 
+\begin{equation*}
+	Ni = %*                                    Insertar ecuacion
+\end{equation*}
+de donde sale la siguiente ecuación 
+\begin{equation*}
+	N = \frac{ni}{A} %! 2 ecuacion diapositvas insertar.
+\end{equation*}
+\begin{equation*}
+	NA = x_A \cdot N + J_A , NB = x_B \cdot N + J_B
+\end{equation*}
+De donde obviamente N$_T$ = N$_A$ + N$_B$ 
+\subsection{Contradifusión molecular EMD}
+\begin{raggedright}
+	Las densidades de flujo molares iguales pero en sentidos contrarios. es decir N$_A$ = -N$_B$\\
+	Tambien es obvio que no hay transporte másico y solo se da la difusión molecular.\\
+	\begin{equation*}
+		N_a = \cancelto{0}{x_a \cdot N} + J_a
+	\end{equation*}
+	\begin{equation*}
+		N_b = \cancelto{0}{x_b \cdot N} + J_b
+	\end{equation*}
+como N$_A$ = -N$_B$ entonces J$_A$ = -J$_B$\\
+si desarrollamos las ecuaciones vemos como el flujo cambia con la distancia a  y tambien como varian las concentraciones con la distancia.\\
+%*                                                   Insertar ecuaciones de la diapositiva + dibujo fraccion molar/distancia 
+\nt{Para mezclas binarias como c = cte $\rightarrow$ D$_{A,B}$ = D$_{B,A}$}
+\end{raggedright}
+\subsection{Difusión unimolecular UMD}
+\begin{raggedright}
+	A se transfiere através de B, estático.
+	\begin{equation*}
+		V_B = \cancelto{0}{\frac{N_B}{C_B}} = 0 \rightarrow N_B = 0 \rightarrow N = N_A
+	\end{equation*}
+	\begin{equation*}
+		NA = x_A \cdot N  %! Insertar formula respecto de conversion 1-xa
+	\end{equation*}
+en la expresion \textbf{1-xa} explica el efecto del transporte másico si Xa es un valor muy pequeño  J  >> Xa no cambia, sin embargo si Xa es considerable afecta.\\
+Transporte másico componente = - transporte molecular del componente.
+\begin{equation*}
+	X_b \cdot N_a = - J_B	
+\end{equation*}
+\begin{itemize}
+	\item [] \begin{center}
+		Con z = z2 media logaritmica
+	\end{center}
+	\item [] \begin{equation*}
+		(1-xa)_{ml} = \frac{(1-xa_1)-(1-xa_2)}{ln(xa_1/xa_2)}
+	\end{equation*}
+\end{itemize}
+ es decir  el numerador seria xa2-xa1
+ %!                                         INSERTAR DIBUJO 
+\subsection{Transferencia de materia a través de un medio estatico:}
+\begin{enumerate}[label=\textbf{\alph*)}]
+	\item \textbf{En un medio estatico:}
+	\item \textbf{con fluidos en regimen laminar:}
+	\item \textbf{con fluidos en regimen turbulento:}
+\end{enumerate}
+\vspace{2\baselineskip}
+\begin{enumerate}[label=\textbf{\alph*)}]
+	\item Suponemos que mov en solo z para una mezcla binaria , Na = Xa$\dots$\\
+	\begin{itemize}
+		\item A experimenta una transferencia de materia pero B esta estatico, asumimos que C es constante y Xa es muy pequeño entonces no hay transporte másico.\\
+		\item Se puede aplicar la EDO para distintas geometrias considerando E.E.,  Difusión unidireccional, D$_{A,B}$ = CTE 
+		\item [] Se obtiene 3 expresiones para 3 geometrias distintas.
+
+	\end{itemize}
+	
+	
+\end{enumerate}
+{\textbf{Difusion en Estado no estacionario:}}
+ecuacion global de balance de materia Entrada + Salida = Acumulación \\
+\vspace{1\baselineskip}
+Segunda ley de fick para la difusión unidireccional en estado no estacionario.\\
+
+%*                                    Insertar ecuacion de la diapositiva y imagenes 
+\end{raggedright}
+
+
+% \textbf{J, Densidad de flujo referiad a la velocidad media molar de la mezcla:} %*Revisar donde va 
+\end{raggedright}
+%! ----------------------------------------------------------------------------------------------------------
+%!                                            PROBLEMAS 
+%! ----------------------------------------------------------------------------------------------------------
+\section{Problemas}
+\subsubsection{\textbf{\textcolor{cyan}{Problema 02-01:}}} 
+\begin{raggedright}
+	Un tubo y un condensador de vidrio aislados térmicamente están montados sobre un calderín que contiene benceno y tolueno. El calderín
+	proporciona una corriente de vapor que asciende por el tubo hasta el punto del tubo, la temperatura es de 170°F, el vapor contiene un 30$\%$
+	mol de tolueno, y el reflujo contiene un 40$\%$ mol de tolueno. Considérese que toda la resistencia a la transferencia de materia entre el líquido
+	y el vapor la ejerce una capa de vapor estacionaria de de 0.1 inch de espesor adyacente a la fase líquida. los calores latentes molares de benceno y tolueno
+	son iguales. Calcular el caudal de transferencia de materia por unidad de superficie (lbmol/h ft$^2$) para el tolueno y el benceno en ese punto del tubo.\\
+
+	\textbf{Datos:}
+	\begin{itemize}
+		\item [] Difusividad del gas tolueno en benceno: 0.2ft$^2$/h
+		\item [] presión en el tubo: 1 atm
+		\item [] Presión del vapor del tolueno a 140°F: 400torr
+		\item [] R = 0.7302 atm ft$^3$ $\cdot$ lbmol$^{-1}$ $\cdot$ °R$^{-1}$
+	\end{itemize}
+\end{raggedright}
+
+\subsubsection{\textbf{\textcolor{cyan}{Problema 02-02:}}}
+\begin{raggedright}
+	Dos cubetas están conectadas por un tubo de 0.002m de diámetro y 0.20m de largo. La cubeta(1) contiene argón, y la cubeta(2)
+	contiene xenón. La presión y la temperatura se mantienen a 1 atm y 105°C. La difusividad es de 0.180 cm$^2$/s. En un instante de tiempo determinado, posterior al inicio de la difusión, la fraccion molar de argón en el estremo(1)
+	del tubo es 0.75 y 0.2 en el otro extremo. Determinar para ese instante del tiempo:
+	\begin{enumerate}[label=\textbf{\alph*)}]
+		\item Los caudales molares y el sentido de la transferencia de materia de xenón y argón.
+		\item La velocidad de transporte de cada especie;
+		\item La velocidad media molar de la mezcla.
+	\end{enumerate}
+	\textbf{Datos:}
+	\begin{itemize}
+		\item [] R = 82.06 atm cm$^3$ $\cdot$ K$^{-1}$ $\cdot$ mol$^{-1}$
+	\end{itemize}
+\end{raggedright}
+
+\subsubsection{\textbf{\textcolor{cyan}{Problema 02-03:}}}
+\begin{raggedright}
+	Un tanque abierto, de 10ft de diámetro, que contiene benceno a 25°C se expone al aire. Por encima de la superficie
+	del líquido hay una película estacionaria de aire de 0.2 inch de espesor que ejerce toda la resistencia a la transferencia de materia.
+	Si la presión es de 1 atm y la temperatura del aire es 25°C, ¿cuál es la perdida de benceno en lb/día? La concentración de benceno fuera de la pelicula es insignificante.
+	Para el benceno, la presión de vapor a 25°C es 100 torr, y la difusividad en aire es de 0.08 cm$^2$/s.\\
+	\textbf{Datos:}
+	\begin{itemize}
+		\item [] R = 82.06 atm cm$^3$ $\cdot$ K$^{-1}$ $\cdot$ mol$^{-1}$
+		\item [] Peso molecular del benceno: 78 g/mol
+	\end{itemize}
+\end{raggedright}
+
+\subsubsection{\textbf{\textcolor{cyan}{Problema 02-04:}}}
+\begin{raggedright}
+	En un proceso de catálisis heterogénea se da la siguiente circunstancia, en la fase fluida la especie A se transporta
+	y una vez en la superficie del catalizador (fase solida)  se transforma en 0.5B. La especie generada ahora se transporta
+	en la fase fluida. Considerando que todos los fenómenos de transferencia de materia ocurren en una película donde xA = Z/P
+	en el intervalo Z = [0, P], obténgase las densidades de flujo neta, por transporte másico y por difusión molecular ordinaria de la especie A.
+\end{raggedright}
+\begin{center}
+	\includegraphics[width=0.8\textwidth]{02_04.png}\\
+\end{center}
+\subsubsection{\textbf{\textcolor{cyan}{Problema 02-05:}}}
+\begin{raggedright}
+	Una corriente de aire a 100°C y 1 atm circula con un numero de reynolds de 50.000 perpendicularmente a un cilindro largo,
+	de 1 inch de diámetro, hecho de naftaleno. Si las propiedades físicas a 100°C y 1 atm son las abajo mencionadas, Calcular
+	la densidad de flujo media de sublimación del naftaleno en kmol/s m$^2$. Suponer despresciable el efecto del transporte másico
+	y que sólo el aire ofrece resistencia a la transferencia de materia, Si en vez de un cilindro fuera una esfera de naftaleno con un diámetro
+	inicial de 1 inch, ¿Cuál sería la velocidad media inicial de sublimación del naftaleno en kmol/s m$^2$?\\
+	\vspace{1\baselineskip}
+	\textbf{Datos:}
+	\begin{itemize}
+		\item [] Presión de vapor del naftaleno: 10 torr
+		\item [] Peso molecular del aire: 29 g/mol
+		\item [] Viscosidad del aire: 0.0215 cP
+		\item [] Densidad molar del aire: 0.0327 kmol/m$^3$
+		\item [] Difusividad del naftaleno en aire: 0.94 $\cdot$ 10$^{-5}$ m$^2$/s
+	\end{itemize}
+
+\end{raggedright}
+
+\subsubsection{\textbf{\textcolor{cyan}{Problema 02-06:}}}
+\begin{raggedright}
+Se han obtenido los siguientes datos en un test de vaporización de agua en aire en una columna de paredes mojadas:
+\begin{itemize}
+	\item Presión total de la columna: 1 atm
+	\item Temperatura de la columna: 24°C
+	\item diámetro de la columna: 1.46cm 
+	\item Longitud de tubo mojado: 82.7cm
+	\item Caudal de gas a la entrada a la columna a 24°C y 1 atm: 720 cm$^3$/s
+	\item Presión de vapor del agua a 24°C: P$^s_w$ = 0.435 psia
+	\item Presión parcial del agua a la entrada del gas p$_w$ = 6.27 torr, y a la salida del gas p$_w$ = 20.1 torr
+	\item Difusividad del vapor de agua en aire a 0°C y 1 atm: 0.22 cm$^2$/s
+\end{itemize}
+Suponiendo que el efecto del  transporte másico es insignificante, calcular:
+\begin{enumerate}[label=\textbf{\alph*)}]
+	\item El caudal molar de agua transferido al aire, en (mol agua/s)
+	\item K$_G$ para la columna de paredes mojadas
+\end{enumerate}
+\end{raggedright}
 \end{document}
